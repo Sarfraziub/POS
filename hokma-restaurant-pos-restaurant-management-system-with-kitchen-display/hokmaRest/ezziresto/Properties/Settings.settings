@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ezziresto.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="userID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="lang" Type="System.String" Scope="User">
+      <Value Profile="(Default)">en</Value>
+    </Setting>
+    <Setting Name="userName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">User</Value>
+    </Setting>
+    <Setting Name="branchId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="restaurantId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="deptTagId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="branchName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Branch Name</Value>
+    </Setting>
+    <Setting Name="deptTagName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Dept Name</Value>
+    </Setting>
+    <Setting Name="token" Type="System.String" Scope="User">
+      <Value Profile="(Default)">token</Value>
+    </Setting>
+    <Setting Name="vat" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="vatSystem" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="cgst" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="sgst" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="currency" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DA</Value>
+    </Setting>
+    <Setting Name="pointMoney" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="sound" Type="System.String" Scope="User">
+      <Value Profile="(Default)">yes</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

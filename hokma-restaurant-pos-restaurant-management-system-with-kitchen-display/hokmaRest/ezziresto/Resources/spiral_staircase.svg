@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="480" height="480">
+  <rect width="15" height="3" x="10" y="16" fill="#ffa726" />
+  <rect width="12.125" height="3" x="16.875" y="21" fill="#ffa726" />
+  <rect width="15" height="2" x="11" y="15" fill="#fb8c00" />
+  <polygon fill="#fb8c00" points="16,21 30,21 30,19 14,19" />
+  <rect width="19" height="2" x="19" y="38" fill="#fb8c00" />
+  <rect width="16" height="3" x="19" y="35" fill="#ffa726" />
+  <rect width="18" height="3" x="19" y="40" fill="#ffa726" />
+  <rect width="14" height="3" x="19" y="30" fill="#ffa726" />
+  <rect width="12" height="3" x="19" y="25" fill="#ffa726" />
+  <rect width="16" height="2" x="20" y="33" fill="#fb8c00" />
+  <rect width="14" height="2" x="20" y="28" fill="#fb8c00" />
+  <rect width="13" height="2" x="19" y="23" fill="#fb8c00" />
+  <rect width="2" height="15" x="10" y="3" fill="#bf360c" />
+  <rect width="2" height="15" x="14" y="5" fill="#bf360c" />
+  <rect width="2" height="24" x="18" y="8" fill="#bf360c" />
+  <path fill="#e65100" d="M20,43h-2v-9c0.007-0.151,0.504-8.987-3.303-13.035C13.454,19.643,11.917,19,10,19v-2 c2.466,0,4.538,0.874,6.157,2.598c4.398,4.682,3.866,14.067,3.841,14.464L20,43z" />
+  <path fill="#e65100" d="M21.164,12.311c-0.346,0-0.682-0.179-0.867-0.5c-1.358-2.355-4.53-6.505-10.514-7.834 c-0.539-0.12-0.879-0.654-0.759-1.193c0.119-0.54,0.655-0.88,1.193-0.759c6.732,1.496,10.291,6.147,11.812,8.788 c0.276,0.479,0.112,1.09-0.367,1.366C21.505,12.268,21.333,12.311,21.164,12.311z" />
+</svg>

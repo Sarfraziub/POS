@@ -1,0 +1,1030 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;layoutControlItem7.Name" xml:space="preserve">
+    <value>layoutControlItem7</value>
+  </data>
+  <data name="&gt;&gt;txtMethode.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="txtDate.Properties.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="txtDate.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem8.Name" xml:space="preserve">
+    <value>layoutControlItem8</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="layoutControlItem6.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="layoutControlItem8.Text" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="txtEtat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 132</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colemail.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMethode.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridControlSupplier.EmbeddedNavigator.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="txtEtat.Properties.Items" xml:space="preserve">
+    <value>Non Payée</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem11.Name" xml:space="preserve">
+    <value>layoutControlItem11</value>
+  </data>
+  <data name="&gt;&gt;btnNewCustomer.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="gridControlSupplier.EmbeddedNavigator.AllowHtmlTextInToolTip" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="txtEtat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 30</value>
+  </data>
+  <data name="gridControlSupplier.EmbeddedNavigator.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;Root.Name" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="gridControlSupplier.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;searchControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SearchControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControlItem5.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="colcreated_at.Caption" xml:space="preserve">
+    <value>Created at</value>
+  </data>
+  <data name="colid.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colphn_no.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnSaveExit.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="txtEtat.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="searchControlSupplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>563, 63</value>
+  </data>
+  <data name="&gt;&gt;colcreated_at.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </data>
+  <data name="txtMontant.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 30</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Add Credit</value>
+  </data>
+  <data name="&gt;&gt;gridControlSupplier.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btnNewCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>860, 59</value>
+  </data>
+  <data name="btnSaveExit.Text" xml:space="preserve">
+    <value>Add and Exit</value>
+  </data>
+  <data name="layoutControlGroup4.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="txtClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 96</value>
+  </data>
+  <data name="txtMethode.Properties.Items4" xml:space="preserve">
+    <value>Methode 5</value>
+  </data>
+  <data name="layoutControlItem9.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="txtMontant.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtMontant.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtMethode.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btnSave.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAGsKAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgd2lkdGg9IjM1cHgiIGhl
+        aWdodD0iMzVweCIgdmlld0JveD0iMCAwIDQ4IDQ4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAw
+        MC9zdmciPg0KICA8bGluZWFyR3JhZGllbnQgeDE9IjUuNzE1cHgiIHkxPSI0MC4zN3B4IiB4Mj0iNDAu
+        ODU3cHgiIHkyPSI1LjIyOXB4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgc3ByZWFkTWV0
+        aG9kPSJwYWQiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSwgMCwgMCwgLTEsIDAsIDQ4KSIgaWQ9
+        IlJZQVRWcEpsRG50RVc4TE9jUFFMcmEiPg0KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9
+        IiMzMmJkZWYiIC8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMWVhMmU0IiAv
+        Pg0KICA8L2xpbmVhckdyYWRpZW50Pg0KICA8cGF0aCBkPSJNMzYuMiw2SDhDNi45LDYsNiw2LjksNiw4
+        djMyYzAsMS4xLDAuOSwyLDIsMmgzMmMxLjEsMCwyLTAuOSwyLTJWMTEuOGMwLTAuNS0wLjItMS0wLjYt
+        MS40bC0zLjgtMy44QzM3LjIsNi4yLDM2LjcsNiwzNi4yLDZ6IiBmaWxsPSJ1cmwoI1JZQVRWcEpsRG50
+        RVc4TE9jUFFMcmEpIiAvPg0KICA8cGF0aCBkPSJNMzYsNkgxNHYxMGMwLDEuNywxLjMsMywzLDNoMTZj
+        MS43LDAsMy0xLjMsMy0zVjZ6IiBvcGFjaXR5PSIwLjA1IiAvPg0KICA8cGF0aCBkPSJNMzMsMTlIMTNj
+        LTEuMSwwLTItMC45LTItMlY2aDI0djExQzM1LDE4LjEsMzQuMSwxOSwzMywxOXoiIGZpbGw9IiMxZmE0
+        ZTYiIC8+DQogIDxwYXRoIGQ9Ik0zMywxOC41SDE3Yy0xLjQsMC0yLjUtMS4xLTIuNS0yLjVWNmgyMXYx
+        MEMzNS41LDE3LjQsMzQuNCwxOC41LDMzLDE4LjV6IiBvcGFjaXR5PSIwLjA3IiAvPg0KICA8cmFkaWFs
+        R3JhZGllbnQgY3g9IjE3LjU3M3B4IiBjeT0iNDUuMzkycHgiIHI9IjIzLjg3cHgiIGdyYWRpZW50VW5p
+        dHM9InVzZXJTcGFjZU9uVXNlIiBzcHJlYWRNZXRob2Q9InBhZCIgZ3JhZGllbnRUcmFuc2Zvcm09Im1h
+        dHJpeCgxLCAwLCAwLCAtMSwgMCwgNDgpIiBpZD0iUllBVFZwSmxEbnRFVzhMT2NQUUxyYiI+DQogICAg
+        PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZhZmFmYiIgLz4NCiAgICA8c3RvcCBvZmZzZXQ9
+        IjUyLjMlIiBzdG9wLWNvbG9yPSIjZTJlNGU3IiAvPg0KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3Rv
+        cC1jb2xvcj0iI2M4Y2RkMSIgLz4NCiAgPC9yYWRpYWxHcmFkaWVudD4NCiAgPHBhdGggZD0iTTE1LDZ2
+        MTBjMCwxLjEsMC45LDIsMiwyaDE2YzEuMSwwLDItMC45LDItMlY2SDE1eiIgZmlsbD0idXJsKCNSWUFU
+        VnBKbERudEVXOExPY1BRTHJiKSIgLz4NCiAgPHJlY3QgeD0iMjciIHk9IjgiIHdpZHRoPSI0IiBoZWln
+        aHQ9IjgiIGZpbGw9IiMxNzdjYWQiIC8+DQogIDxsaW5lYXJHcmFkaWVudCB4MT0iMzguMDAzcHgiIHkx
+        PSI5Ljk5N3B4IiB4Mj0iNDAuMDI3cHgiIHkyPSI3Ljk3M3B4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3Bh
+        Y2VPblVzZSIgc3ByZWFkTWV0aG9kPSJwYWQiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSwgMCwg
+        MCwgLTEsIDAsIDQ4KSIgaWQ9IlJZQVRWcEpsRG50RVc4TE9jUFFMcmMiPg0KICAgIDxzdG9wIG9mZnNl
+        dD0iMCUiIHN0b3AtY29sb3I9IiMwZDYxYTkiIC8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9w
+        LWNvbG9yPSIjMTY1MjhjIiAvPg0KICA8L2xpbmVhckdyYWRpZW50Pg0KICA8cmVjdCB4PSIzOCIgeT0i
+        MzgiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiIGZpbGw9InVybCgjUllBVFZwSmxEbnRFVzhMT2NQUUxyYyki
+        IC8+DQogIDxsaW5lYXJHcmFkaWVudCB4MT0iOC4wMDNweCIgeTE9IjkuOTk3cHgiIHgyPSIxMC4wMjdw
+        eCIgeTI9IjcuOTczcHgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBzcHJlYWRNZXRob2Q9
+        InBhZCIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxLCAwLCAwLCAtMSwgMCwgNDgpIiBpZD0iUllB
+        VFZwSmxEbnRFVzhMT2NQUUxyZCI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBk
+        NjFhOSIgLz4NCiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxNjUyOGMiIC8+DQog
+        IDwvbGluZWFyR3JhZGllbnQ+DQogIDxyZWN0IHg9IjgiIHk9IjM4IiB3aWR0aD0iMiIgaGVpZ2h0PSIy
+        IiBmaWxsPSJ1cmwoI1JZQVRWcEpsRG50RVc4TE9jUFFMcmQpIiAvPg0KICA8bGluZWFyR3JhZGllbnQg
+        eDE9IjEzLjgzcHgiIHkxPSIyMy44M3B4IiB4Mj0iMzQuOTY1cHgiIHkyPSI0NC45NjVweCIgZ3JhZGll
+        bnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHNwcmVhZE1ldGhvZD0icGFkIiBpZD0iUllBVFZwSmxEbnRF
+        VzhMT2NQUUxyZSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZiIgLz4NCiAg
+        ICA8c3RvcCBvZmZzZXQ9IjI0LjIlIiBzdG9wLWNvbG9yPSIjZjJmMmYyIiAvPg0KICAgIDxzdG9wIG9m
+        ZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NjYyIgLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHBh
+        dGggZD0iTTM0LDQySDE0Yy0xLjEsMC0yLTAuOS0yLTJWMjhjMC0xLjEsMC45LTIsMi0yaDIwYzEuMSww
+        LDIsMC45LDIsMnYxMkMzNiw0MS4xLDM1LjEsNDIsMzQsNDJ6IiBmaWxsPSJ1cmwoI1JZQVRWcEpsRG50
+        RVc4TE9jUFFMcmUpIiAvPg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="colname.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtDate.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="layoutControlGroup3.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem13.Name" xml:space="preserve">
+    <value>layoutControlItem13</value>
+  </data>
+  <data name="&gt;&gt;colphn_no.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="sqlDataSourceSupplier.ResultSchemaSerializable" xml:space="preserve">
+    <value>PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZVN1cHBsaWVyIj48VmlldyBOYW1lPSJlenppcmVzdG9fc3VwcGxpZXJzIj48RmllbGQgTmFtZT0iaWQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im5hbWUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iZW1haWwiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0icGhuX25vIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9ImNyZWF0ZWRfYXQiIFR5cGU9IkRhdGVUaW1lIiAvPjwvVmlldz48L0RhdGFTZXQ+</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="gridControlSupplier.EmbeddedNavigator.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;txtEtat.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="btnNewCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Root.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtMontant.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;searchControlSupplier.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SearchControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtClient.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem9.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btnSave.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="txtTypeCredit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 59</value>
+  </data>
+  <data name="colid.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;colphn_no.Name" xml:space="preserve">
+    <value>colphn_no</value>
+  </data>
+  <data name="searchControlSupplier.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
+    <value>layoutControlItem5</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>932, 670</value>
+  </data>
+  <data name="layoutControlItem8.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem12.Name" xml:space="preserve">
+    <value>layoutControlItem12</value>
+  </data>
+  <data name="&gt;&gt;searchControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnSaveExit.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="txtClienta.Text" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtMethode.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;txtTypeCredit.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="txtMethode.Properties.Items2" xml:space="preserve">
+    <value>Methode 3</value>
+  </data>
+  <data name="&gt;&gt;colid.Name" xml:space="preserve">
+    <value>colid</value>
+  </data>
+  <data name="colemail.Caption" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="searchControlSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 30</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem11.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControlItem1.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAIwEAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgd2lkdGg9IjM1cHgiIGhl
+        aWdodD0iMzVweCIgdmlld0JveD0iMCAwIDQ4IDQ4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAw
+        MC9zdmciPg0KICA8cGF0aCBkPSJNMzUuOTgzLDMyLjQ0OGwtMy41MzYsMy41MzZsNy44Nyw3Ljg3YzAu
+        MTk1LDAuMTk1LDAuNTEyLDAuMTk1LDAuNzA3LDBsMi44MjgtMi44MjhjMC4xOTUtMC4xOTUsMC4xOTUt
+        MC41MTIsMC0wLjcwN0wzNS45ODMsMzIuNDQ4eiIgZmlsbD0iIzE5OWJlMiIgLz4NCiAgPHJhZGlhbEdy
+        YWRpZW50IGN4PSIyMC4wMjRweCIgY3k9IjIwLjA5NnB4IiByPSIxOS42MDRweCIgZ3JhZGllbnRVbml0
+        cz0idXNlclNwYWNlT25Vc2UiIHNwcmVhZE1ldGhvZD0icGFkIiBpZD0iS0d0MmFjR2E5NVF5TjJqMDdv
+        Qlg2YSI+DQogICAgPHN0b3Agb2Zmc2V0PSI2OS4zJSIgc3RvcC1jb2xvcj0iIzAwNjE4NSIgLz4NCiAg
+        ICA8c3RvcCBvZmZzZXQ9IjkyLjElIiBzdG9wLWNvbG9yPSIjMzVjMWYxIiAvPg0KICA8L3JhZGlhbEdy
+        YWRpZW50Pg0KICA8cG9seWdvbiBwb2ludHM9IjMxLjYwMSwyOC4wNjUgMjguMDY1LDMxLjYwMSAzMi40
+        NDgsMzUuOTgzIDM1Ljk4MywzMi40NDgiIGZpbGw9InVybCgjS0d0MmFjR2E5NVF5TjJqMDdvQlg2YSki
+        IC8+DQogIDxsaW5lYXJHcmFkaWVudCB4MT0iOC45MTFweCIgeTE9IjguOTExcHgiIHgyPSIzMS4zMzlw
+        eCIgeTI9IjMxLjMzOXB4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgc3ByZWFkTWV0aG9k
+        PSJwYWQiIGlkPSJLR3QyYWNHYTk1UXlOMmowN29CWDZiIj4NCiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBz
+        dG9wLWNvbG9yPSIjYTNmZmZmIiAvPg0KICAgIDxzdG9wIG9mZnNldD0iMjIuMyUiIHN0b3AtY29sb3I9
+        IiM5ZGZiZmYiIC8+DQogICAgPHN0b3Agb2Zmc2V0PSI1MyUiIHN0b3AtY29sb3I9IiM4YmYxZmYiIC8+
+        DQogICAgPHN0b3Agb2Zmc2V0PSI4OC41JSIgc3RvcC1jb2xvcj0iIzZlZTBmZiIgLz4NCiAgICA8c3Rv
+        cCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2M2RhZmYiIC8+DQogIDwvbGluZWFyR3JhZGllbnQ+
+        DQogIDxjaXJjbGUgY3g9IjIwIiBjeT0iMjAiIHI9IjE2IiBmaWxsPSJ1cmwoI0tHdDJhY0dhOTVReU4y
+        ajA3b0JYNmIpIiAvPg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="gridControlSupplier.EmbeddedNavigator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>649, 162</value>
+  </data>
+  <data name="&gt;&gt;txtNote.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="searchControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 28</value>
+  </data>
+  <data name="&gt;&gt;txtDate.Name" xml:space="preserve">
+    <value>txtDate</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form_Add_Credit</value>
+  </data>
+  <data name="&gt;&gt;txtMethode.Name" xml:space="preserve">
+    <value>txtMethode</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem10.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="txtNote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 283</value>
+  </data>
+  <data name="txtTypeCredit.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;colemail.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gridControlSupplier.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="layoutControlGroup2.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;sqlDataSourceSupplier.Name" xml:space="preserve">
+    <value>sqlDataSourceSupplier</value>
+  </data>
+  <data name="&gt;&gt;txtTypeCredit.Name" xml:space="preserve">
+    <value>txtTypeCredit</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="&gt;&gt;txtNote.Name" xml:space="preserve">
+    <value>txtNote</value>
+  </data>
+  <data name="gridControlSupplier.EmbeddedNavigator.ToolTipIconType" type="DevExpress.Utils.ToolTipIconType, DevExpress.Utils.v22.2">
+    <value>None</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value>Type Credit</value>
+  </data>
+  <data name="btnNewCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 38</value>
+  </data>
+  <data name="txtMethode.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="&gt;&gt;txtEtat.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtDate.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtMethode.Properties.Items" xml:space="preserve">
+    <value>Methode 1</value>
+  </data>
+  <data name="gridControlSupplier.EmbeddedNavigator.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtNote.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;searchControlSupplier.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="txtDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 28</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtDate.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="colcreated_at.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gridControlSupplier.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="txtClient.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="txtEtat.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gridControlSupplier.DataMember" xml:space="preserve">
+    <value>ezziresto_suppliers</value>
+  </data>
+  <data name="btnSaveExit.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;colname.Name" xml:space="preserve">
+    <value>colname</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem12.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="searchControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gridControlSupplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>563, 203</value>
+  </data>
+  <data name="&gt;&gt;btnSaveExit.Name" xml:space="preserve">
+    <value>btnSaveExit</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtTypeCredit.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="gridControlSupplier.EmbeddedNavigator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="txtMethode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 170</value>
+  </data>
+  <data name="txtMethode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 30</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem13.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="txtTypeCredit.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem9.Name" xml:space="preserve">
+    <value>layoutControlItem9</value>
+  </data>
+  <data name="&gt;&gt;txtClient.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="colphn_no.Caption" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="&gt;&gt;dxValidationProvider1.Name" xml:space="preserve">
+    <value>dxValidationProvider1</value>
+  </data>
+  <data name="gridControlSupplier.EmbeddedNavigator.ToolTipTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnNewCustomer.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="txtDate.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtEtat.Name" xml:space="preserve">
+    <value>txtEtat</value>
+  </data>
+  <data name="&gt;&gt;gridViewSupplier.Name" xml:space="preserve">
+    <value>gridViewSupplier</value>
+  </data>
+  <data name="&gt;&gt;btnNewCustomer.Name" xml:space="preserve">
+    <value>btnNewCustomer</value>
+  </data>
+  <data name="txtEtat.Properties.Items1" xml:space="preserve">
+    <value>Payée</value>
+  </data>
+  <data name="gridControlSupplier.EmbeddedNavigator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;colid.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtTypeCredit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnNewCustomer.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAADkFAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgd2lkdGg9IjM1cHgiIGhl
+        aWdodD0iMzVweCIgdmlld0JveD0iMCAwIDQ4IDQ4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAw
+        MC9zdmciPg0KICA8bGluZWFyR3JhZGllbnQgeDE9IjkuODU4cHgiIHkxPSI5Ljg1OHB4IiB4Mj0iMzgu
+        MTQycHgiIHkyPSIzOC4xNDJweCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHNwcmVhZE1l
+        dGhvZD0icGFkIiBpZD0iWVQxWUZaR2luQkRKMU9nRFpOQnNfYSI+DQogICAgPHN0b3Agb2Zmc2V0PSIw
+        JSIgc3RvcC1jb2xvcj0iIzIxYWQ2NCIgLz4NCiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29s
+        b3I9IiMwODgyNDIiIC8+DQogIDwvbGluZWFyR3JhZGllbnQ+DQogIDxwYXRoIGQ9Ik00NCwyNGMwLDEx
+        LjA0NS04Ljk1NSwyMC0yMCwyMFM0LDM1LjA0NSw0LDI0UzEyLjk1NSw0LDI0LDRTNDQsMTIuOTU1LDQ0
+        LDI0eiIgZmlsbD0idXJsKCNZVDFZRlpHaW5CREoxT2dEWk5Cc19hKSIgLz4NCiAgPHBhdGggZD0iTTM0
+        LDIxaC03di03YzAtMS4xMDUtMC44OTUtMi0yLTJoLTJjLTEuMTA1LDAtMiwwLjg5NS0yLDJ2N2gtN2Mt
+        MS4xMDUsMC0yLDAuODk1LTIsMnYyYzAsMS4xMDUsMC44OTUsMiwyLDJoN3Y3YzAsMS4xMDUsMC44OTUs
+        MiwyLDJoMmMxLjEwNSwwLDItMC44OTUsMi0ydi03aDdjMS4xMDUsMCwyLTAuODk1LDItMnYtMkMzNiwy
+        MS44OTUsMzUuMTA1LDIxLDM0LDIxeiIgb3BhY2l0eT0iMC4wNSIgLz4NCiAgPHBhdGggZD0iTTM0LDIx
+        LjVoLTcuNVYxNGMwLTAuODI4LTAuNjcyLTEuNS0xLjUtMS41aC0yYy0wLjgyOCwwLTEuNSwwLjY3Mi0x
+        LjUsMS41djcuNUgxNGMtMC44MjgsMC0xLjUsMC42NzItMS41LDEuNXYyYzAsMC44MjgsMC42NzIsMS41
+        LDEuNSwxLjVoNy41VjM0YzAsMC44MjgsMC42NzIsMS41LDEuNSwxLjVoMmMwLjgyOCwwLDEuNS0wLjY3
+        MiwxLjUtMS41di03LjVIMzRjMC44MjgsMCwxLjUtMC42NzIsMS41LTEuNXYtMkMzNS41LDIyLjE3Miwz
+        NC44MjgsMjEuNSwzNCwyMS41eiIgb3BhY2l0eT0iMC4wNyIgLz4NCiAgPHBhdGggZD0iTTIzLDEzaDJj
+        MC41NTIsMCwxLDAuNDQ4LDEsMXYyMGMwLDAuNTUyLTAuNDQ4LDEtMSwxaC0yYy0wLjU1MiwwLTEtMC40
+        NDgtMS0xVjE0QzIyLDEzLjQ0OCwyMi40NDgsMTMsMjMsMTN6IiBmaWxsPSIjZmZmIiAvPg0KICA8cGF0
+        aCBkPSJNMzUsMjN2MmMwLDAuNTUyLTAuNDQ4LDEtMSwxSDE0Yy0wLjU1MiwwLTEtMC40NDgtMS0xdi0y
+        YzAtMC41NTIsMC40NDgtMSwxLTFoMjBDMzQuNTUyLDIyLDM1LDIyLjQ0OCwzNSwyM3oiIGZpbGw9IiNm
+        ZmYiIC8+DQo8L3N2Zz4L
+</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;searchControlSupplier.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;colname.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControlItem7.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem3.Name" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="&gt;&gt;colemail.Name" xml:space="preserve">
+    <value>colemail</value>
+  </data>
+  <data name="&gt;&gt;txtEtat.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtMontant.Name" xml:space="preserve">
+    <value>txtMontant</value>
+  </data>
+  <data name="&gt;&gt;btnSaveExit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControlItem7.Text" xml:space="preserve">
+    <value>Credit Amount</value>
+  </data>
+  <data name="&gt;&gt;txtClient.Name" xml:space="preserve">
+    <value>txtClient</value>
+  </data>
+  <data name="layoutControlItem1.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="colname.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMethode.Properties.Items3" xml:space="preserve">
+    <value>Methode 4</value>
+  </data>
+  <data name="&gt;&gt;txtClienta.Name" xml:space="preserve">
+    <value>txtClienta</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem6.Name" xml:space="preserve">
+    <value>layoutControlItem6</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControlSupplier.Name" xml:space="preserve">
+    <value>gridControlSupplier</value>
+  </data>
+  <data name="&gt;&gt;txtClient.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="layoutControlGroup4.Text" xml:space="preserve">
+    <value>New Supplier Credit</value>
+  </data>
+  <data name="layoutControlItem9.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>Suppliers</value>
+  </data>
+  <data name="txtTypeCredit.Properties.Items" xml:space="preserve">
+    <value>individual</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="txtTypeCredit.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="txtMethode.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtMontant.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="txtClienta.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="colemail.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dxValidationProvider1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;searchControlSupplier.Name" xml:space="preserve">
+    <value>searchControlSupplier</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;colcreated_at.Name" xml:space="preserve">
+    <value>colcreated_at</value>
+  </data>
+  <data name="txtEtat.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
+    <value>layoutControlGroup2</value>
+  </data>
+  <data name="btnSaveExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 41</value>
+  </data>
+  <data name="btnSaveExit.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAADcPAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgd2lkdGg9IjM1cHgiIGhl
+        aWdodD0iMzVweCIgdmlld0JveD0iMCAwIDQ4IDQ4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAw
+        MC9zdmciPg0KICA8bGluZWFyR3JhZGllbnQgeDE9IjUuNzE1cHgiIHkxPSI2NTQuMzdweCIgeDI9IjQw
+        Ljg1N3B4IiB5Mj0iNjE5LjIyOXB4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgc3ByZWFk
+        TWV0aG9kPSJwYWQiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSwgMCwgMCwgLTEsIDAsIDY2Miki
+        IGlkPSJMMkJ5aENHRXcxZ0RzN0dnUFFhNkJhIj4NCiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNv
+        bG9yPSIjMzJiZGVmIiAvPg0KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlYTJl
+        NCIgLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHBhdGggZD0iTTM2LjE3Miw2SDhDNi44OTUsNiw2
+        LDYuODk1LDYsOHYzMmMwLDEuMTA1LDAuODk1LDIsMiwyaDMyYzEuMTA1LDAsMi0wLjg5NSwyLTJWMTEu
+        ODI4YzAtMC41My0wLjIxMS0xLjAzOS0wLjU4Ni0xLjQxNGwtMy44MjgtMy44MjhDMzcuMjExLDYuMjEx
+        LDM2LjcwMiw2LDM2LjE3Miw2eiIgZmlsbD0idXJsKCNMMkJ5aENHRXcxZ0RzN0dnUFFhNkJhKSIgLz4N
+        CiAgPHBhdGggZD0iTTM2LDZIMTR2MTBjMCwxLjY1NywxLjM0MywzLDMsM2gxNmMxLjY1NywwLDMtMS4z
+        NDMsMy0zVjZ6IiBvcGFjaXR5PSIwLjA1IiAvPg0KICA8cGF0aCBkPSJNMzMsMTlIMTNjLTEuMTA1LDAt
+        Mi0wLjg5NS0yLTJWNmgyNHYxMUMzNSwxOC4xMDUsMzQuMTA1LDE5LDMzLDE5eiIgZmlsbD0iIzFmYTRl
+        NiIgLz4NCiAgPHBhdGggZD0iTTMzLDE4LjVIMTdjLTEuMzgxLDAtMi41LTEuMTE5LTIuNS0yLjVWNmgy
+        MXYxMEMzNS41LDE3LjM4MSwzNC4zODEsMTguNSwzMywxOC41eiIgb3BhY2l0eT0iMC4wNyIgLz4NCiAg
+        PHJhZGlhbEdyYWRpZW50IGN4PSIxNy41NzNweCIgY3k9IjY1OS4zOTJweCIgcj0iMjMuODdweCIgZ3Jh
+        ZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHNwcmVhZE1ldGhvZD0icGFkIiBncmFkaWVudFRyYW5z
+        Zm9ybT0ibWF0cml4KDEsIDAsIDAsIC0xLCAwLCA2NjIpIiBpZD0iTDJCeWhDR0V3MWdEczdHZ1BRYTZC
+        YiI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZhZmFmYiIgLz4NCiAgICA8c3Rv
+        cCBvZmZzZXQ9IjUyLjMlIiBzdG9wLWNvbG9yPSIjZTJlNGU3IiAvPg0KICAgIDxzdG9wIG9mZnNldD0i
+        MTAwJSIgc3RvcC1jb2xvcj0iI2M4Y2RkMSIgLz4NCiAgPC9yYWRpYWxHcmFkaWVudD4NCiAgPHBhdGgg
+        ZD0iTTE1LDZ2MTBjMCwxLjEwNSwwLjg5NSwyLDIsMmgxNmMxLjEwNSwwLDItMC44OTUsMi0yVjZIMTV6
+        IiBmaWxsPSJ1cmwoI0wyQnloQ0dFdzFnRHM3R2dQUWE2QmIpIiAvPg0KICA8bGluZWFyR3JhZGllbnQg
+        eDE9IjEzLjgzcHgiIHkxPSIyMy44M3B4IiB4Mj0iMzQuOTY1cHgiIHkyPSI0NC45NjVweCIgZ3JhZGll
+        bnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHNwcmVhZE1ldGhvZD0icGFkIiBpZD0iTDJCeWhDR0V3MWdE
+        czdHZ1BRYTZCYyI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZiIgLz4NCiAg
+        ICA8c3RvcCBvZmZzZXQ9IjI0LjIlIiBzdG9wLWNvbG9yPSIjZjJmMmYyIiAvPg0KICAgIDxzdG9wIG9m
+        ZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NjYyIgLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHBh
+        dGggZD0iTTM0LDQySDE0Yy0xLjEwNSwwLTItMC44OTUtMi0yVjI4YzAtMS4xMDUsMC44OTUtMiwyLTJo
+        MjBjMS4xMDUsMCwyLDAuODk1LDIsMnYxMkMzNiw0MS4xMDUsMzUuMTA1LDQyLDM0LDQyeiIgZmlsbD0i
+        dXJsKCNMMkJ5aENHRXcxZ0RzN0dnUFFhNkJjKSIgLz4NCiAgPHJlY3QgeD0iMjciIHk9IjgiIHdpZHRo
+        PSI0IiBoZWlnaHQ9IjgiIGZpbGw9IiMxNzdjYWQiIC8+DQogIDxsaW5lYXJHcmFkaWVudCB4MT0iMzgu
+        MDAzcHgiIHkxPSI2MjMuOTk3cHgiIHgyPSI0MC4wMjdweCIgeTI9IjYyMS45NzNweCIgZ3JhZGllbnRV
+        bml0cz0idXNlclNwYWNlT25Vc2UiIHNwcmVhZE1ldGhvZD0icGFkIiBncmFkaWVudFRyYW5zZm9ybT0i
+        bWF0cml4KDEsIDAsIDAsIC0xLCAwLCA2NjIpIiBpZD0iTDJCeWhDR0V3MWdEczdHZ1BRYTZCZCI+DQog
+        ICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBkNjFhOSIgLz4NCiAgICA8c3RvcCBvZmZz
+        ZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxNjUyOGMiIC8+DQogIDwvbGluZWFyR3JhZGllbnQ+DQogIDxy
+        ZWN0IHg9IjM4IiB5PSIzOCIgd2lkdGg9IjIiIGhlaWdodD0iMiIgZmlsbD0idXJsKCNMMkJ5aENHRXcx
+        Z0RzN0dnUFFhNkJkKSIgLz4NCiAgPGxpbmVhckdyYWRpZW50IHgxPSI4LjAwM3B4IiB5MT0iNjIzLjk5
+        N3B4IiB4Mj0iMTAuMDI3cHgiIHkyPSI2MjEuOTczcHgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9u
+        VXNlIiBzcHJlYWRNZXRob2Q9InBhZCIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxLCAwLCAwLCAt
+        MSwgMCwgNjYyKSIgaWQ9IkwyQnloQ0dFdzFnRHM3R2dQUWE2QmUiPg0KICAgIDxzdG9wIG9mZnNldD0i
+        MCUiIHN0b3AtY29sb3I9IiMwZDYxYTkiIC8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNv
+        bG9yPSIjMTY1MjhjIiAvPg0KICA8L2xpbmVhckdyYWRpZW50Pg0KICA8cmVjdCB4PSI4IiB5PSIzOCIg
+        d2lkdGg9IjIiIGhlaWdodD0iMiIgZmlsbD0idXJsKCNMMkJ5aENHRXcxZ0RzN0dnUFFhNkJlKSIgLz4N
+        CiAgPHJhZGlhbEdyYWRpZW50IGN4PSIzNy44M3B4IiBjeT0iMzguMDIxcHgiIHI9IjExLjg5NHB4IiBn
+        cmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgc3ByZWFkTWV0aG9kPSJwYWQiIGlkPSJMMkJ5aENH
+        RXcxZ0RzN0dnUFFhNkJmIj4NCiAgICA8c3RvcCBvZmZzZXQ9IjAlIiAvPg0KICAgIDxzdG9wIG9mZnNl
+        dD0iOTcuOSUiIHN0b3Atb3BhY2l0eT0iMCIgLz4NCiAgPC9yYWRpYWxHcmFkaWVudD4NCiAgPHBhdGgg
+        ZD0iTTM4LDI2Yy02LjYxNywwLTEyLDUuMzgzLTEyLDEyYzAsMS40MDQsMC4yNTUsMi43NDcsMC43LDRI
+        NDBjMS4xMDUsMCwyLTAuODk1LDItMlYyNi43QzQwLjc0NywyNi4yNTUsMzkuNDA0LDI2LDM4LDI2eiIg
+        ZmlsbD0idXJsKCNMMkJ5aENHRXcxZ0RzN0dnUFFhNkJmKSIgLz4NCiAgPGxpbmVhckdyYWRpZW50IHgx
+        PSIzMC45MjlweCIgeTE9IjYzMS4wNzFweCIgeDI9IjQ1LjA3MXB4IiB5Mj0iNjE2LjkyOXB4IiBncmFk
+        aWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgc3ByZWFkTWV0aG9kPSJwYWQiIGdyYWRpZW50VHJhbnNm
+        b3JtPSJtYXRyaXgoMSwgMCwgMCwgLTEsIDAsIDY2MikiIGlkPSJMMkJ5aENHRXcxZ0RzN0dnUFFhNkJn
+        Ij4NCiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMjFhZDY0IiAvPg0KICAgIDxzdG9w
+        IG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzA4ODI0MiIgLz4NCiAgPC9saW5lYXJHcmFkaWVudD4N
+        CiAgPHBhdGggZD0iTTQ4LDM4YzAsNS41MjItNC40NzgsMTAtMTAsMTBzLTEwLTQuNDc4LTEwLTEwczQu
+        NDc4LTEwLDEwLTEwUzQ4LDMyLjQ3OCw0OCwzOHoiIGZpbGw9InVybCgjTDJCeWhDR0V3MWdEczdHZ1BR
+        YTZCZykiIC8+DQogIDxwYXRoIGQ9Ik0zNi42NDYsNDIuMzU0bC00LTRjLTAuMTk1LTAuMTk1LTAuMTk1
+        LTAuNTEyLDAtMC43MDdsMC43MDctMC43MDdjMC4xOTUtMC4xOTUsMC41MTItMC4xOTUsMC43MDcsMEwz
+        NywzOS44NzlsNS40MzktNS40MzljMC4xOTUtMC4xOTUsMC41MTItMC4xOTUsMC43MDcsMGwwLjcwNyww
+        LjcwN2MwLjE5NSwwLjE5NSwwLjE5NSwwLjUxMiwwLDAuNzA3bC02LjUsNi41QzM3LjE1OCw0Mi41NDks
+        MzYuODQyLDQyLjU0OSwzNi42NDYsNDIuMzU0eiIgZmlsbD0iI2ZmZiIgLz4NCjwvc3ZnPgs=
+</value>
+  </data>
+  <data name="&gt;&gt;gridViewSupplier.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup4.Name" xml:space="preserve">
+    <value>layoutControlGroup4</value>
+  </data>
+  <data name="&gt;&gt;searchControl1.Name" xml:space="preserve">
+    <value>searchControl1</value>
+  </data>
+  <data name="txtDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 206</value>
+  </data>
+  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 30</value>
+  </data>
+  <data name="gridControlSupplier.EmbeddedNavigator.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtClient.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>932, 670</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v22.2" name="DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="gridControlSupplier.EmbeddedNavigator.TextLocation" type="DevExpress.XtraEditors.NavigatorButtonsTextLocation, DevExpress.XtraEditors.v22.2">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="colname.Caption" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;sqlDataSourceSupplier.Type" xml:space="preserve">
+    <value>DevExpress.DataAccess.Sql.SqlDataSource, DevExpress.DataAccess.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="txtMethode.Properties.Items1" xml:space="preserve">
+    <value>Methode 2</value>
+  </data>
+  <data name="&gt;&gt;txtClienta.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem10.Name" xml:space="preserve">
+    <value>layoutControlItem10</value>
+  </data>
+  <data name="colcreated_at.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 292</value>
+  </data>
+  <data name="txtTypeCredit.Properties.Items1" xml:space="preserve">
+    <value>societe</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup3.Name" xml:space="preserve">
+    <value>layoutControlGroup3</value>
+  </data>
+  <data name="txtNote.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="searchControlSupplier.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="colphn_no.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 613</value>
+  </data>
+  <data name="&gt;&gt;btnSaveExit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtTypeCredit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 30</value>
+  </data>
+  <data name="txtMontant.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnNewCustomer.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtNote.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControlGroup1.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 41</value>
+  </data>
+  <data name="txtMontant.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 170</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>Supplier Search</value>
+  </data>
+  <data name="colid.Caption" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;searchControl1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="gridControlSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>337, 435</value>
+  </data>
+  <data name="txtNote.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="btnSaveExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 613</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ar</value>
+  </metadata>
+  <metadata name="sqlDataSourceSupplier.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dxValidationProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>192, 17</value>
+  </metadata>
+</root>

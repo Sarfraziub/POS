@@ -1,0 +1,1746 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9EE6BBF4-E035-4BB6-B39F-924005A242F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ezziresto</RootNamespace>
+    <AssemblyName>ezziresto</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.BonusSkins.v22.2" />
+    <Reference Include="DevExpress.Charts.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.CodeParser.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v22.2" />
+    <Reference Include="DevExpress.Data.v22.2" />
+    <Reference Include="DevExpress.DataAccess.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v22.2.Drawing, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v22.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v22.2.Export, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v22.2" />
+    <Reference Include="DevExpress.Utils.v22.2.UI, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v22.2" />
+    <Reference Include="DevExpress.Sparkline.v22.2.Core" />
+    <Reference Include="DevExpress.XtraCharts.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v22.2" />
+    <Reference Include="DevExpress.Drawing.v22.2" />
+    <Reference Include="DevExpress.XtraGauges.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Microsoft.Transactions.Bridge, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Selectors" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.DurableInstancing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activation" />
+    <Reference Include="System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\Setting\Setting.cs" />
+    <Compile Include="BL\Auth\Auth.cs" />
+    <Compile Include="BL\TempIngredientPurchase\TempIngredientPurchase.cs" />
+    <Compile Include="BL\TempFoodPurchase\TempFoodPurchase.cs" />
+    <Compile Include="BL\TempOrder\TempOrder.cs" />
+    <Compile Include="BL\Rapport\Rapport.cs" />
+    <Compile Include="BL\Dashboard\Dashboard.cs" />
+    <Compile Include="BL\Branch\Branch.cs" />
+    <Compile Include="BL\Brand\Brand.cs" />
+    <Compile Include="BL\Category\Category.cs" />
+    <Compile Include="BL\Credit\Credit.cs" />
+    <Compile Include="BL\Credit\Versemenet.cs" />
+    <Compile Include="BL\Currency\Currency.cs" />
+    <Compile Include="BL\Customer\Customer.cs" />
+    <Compile Include="BL\CustommerType\CustommerType.cs" />
+    <Compile Include="BL\DepartmentTagList\DepartmentTagList.cs" />
+    <Compile Include="BL\Family\Family.cs" />
+    <Compile Include="BL\FoodGroup\FoodGroup.cs" />
+    <Compile Include="BL\FoodItem\FoodItem.cs" />
+    <Compile Include="BL\FoodPurchase\FoodPurchase.cs" />
+    <Compile Include="BL\Helper\Functions.cs" />
+    <Compile Include="BL\Helper\ListToDataTableConverter.cs" />
+    <Compile Include="BL\IngredientGroup\IngredientGroup.cs" />
+    <Compile Include="BL\IngredientItem\IngredientItem.cs" />
+    <Compile Include="BL\IngredientPurchase\IngredientPurchase.cs" />
+    <Compile Include="BL\Language\Language.cs" />
+    <Compile Include="BL\Models\Product.cs" />
+    <Compile Include="BL\Order\Order.cs" />
+    <Compile Include="BL\PaymentType\PaymentType.cs" />
+    <Compile Include="BL\PermissionGroup\PermissionGroup.cs" />
+    <Compile Include="BL\Permission\Permission.cs" />
+    <Compile Include="BL\Pos\Pos.cs" />
+    <Compile Include="BL\Product\Product.cs" />
+    <Compile Include="BL\Unit\Unit.cs" />
+    <Compile Include="BL\Property\Property.cs" />
+    <Compile Include="BL\Sale\Sale.cs" />
+    <Compile Include="BL\Supplier\Supplier.cs" />
+    <Compile Include="BL\Table\Table.cs" />
+    <Compile Include="BL\Tax\Tax.cs" />
+    <Compile Include="BL\Type\Type.cs" />
+    <Compile Include="BL\Unitttt\Unitttt.cs" />
+    <Compile Include="BL\Variation\Variation.cs" />
+    <Compile Include="BL\User\User.cs" />
+    <Compile Include="BL\Waiter\Waiter.cs" />
+    <Compile Include="BL\Warehouse\Ailes.cs" />
+    <Compile Include="BL\Warehouse\Cases.cs" />
+    <Compile Include="BL\Warehouse\Racks.cs" />
+    <Compile Include="BL\Warehouse\Stages.cs" />
+    <Compile Include="BL\Warehouse\Warehouse.cs" />
+    <Compile Include="BL\Warehouse\Zone.cs" />
+    <Compile Include="BL\WorkPeriods\WorkPeriods.cs" />
+    <Compile Include="BL\Zone\Zone.cs" />
+    <Compile Include="DAL\DataAccessLayer.cs" />
+    <Compile Include="Form_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Home.Designer.cs">
+      <DependentUpon>Form_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Auth\Form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Auth\Form_Login.Designer.cs">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Credit\Form_Add_Credit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Credit\Form_Add_Credit.Designer.cs">
+      <DependentUpon>Form_Add_Credit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Credit\Form_Add_Versement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Credit\Form_Add_Versement.Designer.cs">
+      <DependentUpon>Form_Add_Versement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Credit\Form_Credit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Credit\Form_Credit.Designer.cs">
+      <DependentUpon>Form_Credit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Customer\Form_Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Customer\Form_Customers.Designer.cs">
+      <DependentUpon>Form_Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Customer\Form_customer_points.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Customer\Form_customer_points.Designer.cs">
+      <DependentUpon>Form_customer_points.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Customer\Form_Custommer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Customer\Form_Custommer.Designer.cs">
+      <DependentUpon>Form_Custommer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Dashboard\Form_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Dashboard\Form_Dashboard.Designer.cs">
+      <DependentUpon>Form_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\DeliveredOrders\Form_Delivered_Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\DeliveredOrders\Form_Delivered_Orders.Designer.cs">
+      <DependentUpon>Form_Delivered_Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\DocumentsViewer\Form_DocViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\DocumentsViewer\Form_DocViewer.Designer.cs">
+      <DependentUpon>Form_DocViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\FoodGroup\Form_Edit_Food_Group.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\FoodGroup\Form_Edit_Food_Group.Designer.cs">
+      <DependentUpon>Form_Edit_Food_Group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\FoodGroup\Form_Add_Food_Group.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\FoodGroup\Form_Add_Food_Group.Designer.cs">
+      <DependentUpon>Form_Add_Food_Group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\FoodGroup\Form_Food_Group.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\FoodGroup\Form_Food_Group.Designer.cs">
+      <DependentUpon>Form_Food_Group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\Form_Add_New_Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\Form_Add_New_Item.Designer.cs">
+      <DependentUpon>Form_Add_New_Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\Form_Edit_Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\Form_Edit_Item.Designer.cs">
+      <DependentUpon>Form_Edit_Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\Form_Food_Items_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\Form_Food_Items_List.Designer.cs">
+      <DependentUpon>Form_Food_Items_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\Property\Form_Add_Property.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\Property\Form_Add_Property.Designer.cs">
+      <DependentUpon>Form_Add_Property.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\Property\Form_Edit_Property.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\Property\Form_Edit_Property.Designer.cs">
+      <DependentUpon>Form_Edit_Property.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\Property\Form_Properties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\Property\Form_Properties.Designer.cs">
+      <DependentUpon>Form_Properties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\Property\PropertyItems\Form_Property_Items_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\Property\PropertyItems\Form_Property_Items_List.Designer.cs">
+      <DependentUpon>Form_Property_Items_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\Unit\Form_Add_Unit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\Unit\Form_Add_Unit.Designer.cs">
+      <DependentUpon>Form_Add_Unit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\Unit\Form_Edit_Unit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\Unit\Form_Edit_Unit.Designer.cs">
+      <DependentUpon>Form_Edit_Unit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\Unit\Form_Units.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\Unit\Form_Units.Designer.cs">
+      <DependentUpon>Form_Units.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\Variation\Form_Add_Variation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\Variation\Form_Add_Variation.Designer.cs">
+      <DependentUpon>Form_Add_Variation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\Variation\Form_Edit_Variation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\Variation\Form_Edit_Variation.Designer.cs">
+      <DependentUpon>Form_Edit_Variation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Food\Variation\Form_Variations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Food\Variation\Form_Variations.Designer.cs">
+      <DependentUpon>Form_Variations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Kitchen\Form_kitchen_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Kitchen\Form_kitchen_List.Designer.cs">
+      <DependentUpon>Form_kitchen_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Kitchen\Form_Order_Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Kitchen\Form_Order_Status.Designer.cs">
+      <DependentUpon>Form_Order_Status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Order\Form_Order_Histories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Order\Form_Order_Histories.Designer.cs">
+      <DependentUpon>Form_Order_Histories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Order\OrderGroups\Form_Order_Groups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Order\OrderGroups\Form_Order_Groups.Designer.cs">
+      <DependentUpon>Form_Order_Groups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Order\OrderGroups\Form_Order_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Order\OrderGroups\Form_Order_Details.Designer.cs">
+      <DependentUpon>Form_Order_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Order\OrderGroups\Form_Settle_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Order\OrderGroups\Form_Settle_Order.Designer.cs">
+      <DependentUpon>Form_Settle_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Pos\Form_Pos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Pos\Form_Pos.Designer.cs">
+      <DependentUpon>Form_Pos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Rapport\Form_Food_Purchase_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Rapport\Form_Food_Purchase_List.Designer.cs">
+      <DependentUpon>Form_Food_Purchase_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Rapport\Form_Order_Histories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Rapport\Form_Order_Histories.Designer.cs">
+      <DependentUpon>Form_Order_Histories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Report\InvoiceIngredient.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PL\Report\InvoiceIngredient.Designer.cs">
+      <DependentUpon>InvoiceIngredient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Report\InvoiceFood.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PL\Report\InvoiceFood.Designer.cs">
+      <DependentUpon>InvoiceFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Report\Reciept80mm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PL\Report\Reciept80mm.Designer.cs">
+      <DependentUpon>Reciept80mm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\Branch\Form_Add_Branch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\Branch\Form_Add_Branch.Designer.cs">
+      <DependentUpon>Form_Add_Branch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\Branch\Form_Branch_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\Branch\Form_Branch_List.Designer.cs">
+      <DependentUpon>Form_Branch_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\Branch\Form_Edit_Branch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\Branch\Form_Edit_Branch.Designer.cs">
+      <DependentUpon>Form_Edit_Branch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\DepartmentTagList\Form_Add_Department_Tag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\DepartmentTagList\Form_Add_Department_Tag.Designer.cs">
+      <DependentUpon>Form_Add_Department_Tag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\DepartmentTagList\Form_Department_Tag_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\DepartmentTagList\Form_Department_Tag_List.Designer.cs">
+      <DependentUpon>Form_Department_Tag_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\DepartmentTagList\Form_Edit_Department_Tag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\DepartmentTagList\Form_Edit_Department_Tag.Designer.cs">
+      <DependentUpon>Form_Edit_Department_Tag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\PaymentType\Form_Add_Payment_Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\PaymentType\Form_Add_Payment_Type.Designer.cs">
+      <DependentUpon>Form_Add_Payment_Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\PaymentType\Form_Edit_Payment_Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\PaymentType\Form_Edit_Payment_Type.Designer.cs">
+      <DependentUpon>Form_Edit_Payment_Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\PaymentType\Form_Payment_Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\PaymentType\Form_Payment_Type.Designer.cs">
+      <DependentUpon>Form_Payment_Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\Table\Form_Add_Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\Table\Form_Add_Table.Designer.cs">
+      <DependentUpon>Form_Add_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\Table\Form_Edit_Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\Table\Form_Edit_Table.Designer.cs">
+      <DependentUpon>Form_Edit_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\Table\Form_Table_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\Table\Form_Table_List.Designer.cs">
+      <DependentUpon>Form_Table_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\Zone\Form_Add_Zone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\Zone\Form_Add_Zone.Designer.cs">
+      <DependentUpon>Form_Add_Zone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\Zone\Form_Edit_Zone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\Zone\Form_Edit_Zone.Designer.cs">
+      <DependentUpon>Form_Edit_Zone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restaurant\Zone\Form_Zones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restaurant\Zone\Form_Zones.Designer.cs">
+      <DependentUpon>Form_Zones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Settings\Currency\Form_Add_Currency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Settings\Currency\Form_Add_Currency.Designer.cs">
+      <DependentUpon>Form_Add_Currency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Settings\Currency\Form_Currency_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Settings\Currency\Form_Currency_List.Designer.cs">
+      <DependentUpon>Form_Currency_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Settings\Currency\Form_Edit_Currency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Settings\Currency\Form_Edit_Currency.Designer.cs">
+      <DependentUpon>Form_Edit_Currency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Settings\Form_Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Settings\Form_Settings.Designer.cs">
+      <DependentUpon>Form_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Settings\Language\Form_Add_Language.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Settings\Language\Form_Add_Language.Designer.cs">
+      <DependentUpon>Form_Add_Language.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Settings\Language\Form_Edit_Language.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Settings\Language\Form_Edit_Language.Designer.cs">
+      <DependentUpon>Form_Edit_Language.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Settings\Language\Form_Language_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Settings\Language\Form_Language_List.Designer.cs">
+      <DependentUpon>Form_Language_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\FoodPurchase\Form_Add_Food_Purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\FoodPurchase\Form_Add_Food_Purchase.Designer.cs">
+      <DependentUpon>Form_Add_Food_Purchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\FoodPurchase\Form_Edit_Food_Purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\FoodPurchase\Form_Edit_Food_Purchase.Designer.cs">
+      <DependentUpon>Form_Edit_Food_Purchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\FoodPurchase\Form_Food_Purchase_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\FoodPurchase\Form_Food_Purchase_List.Designer.cs">
+      <DependentUpon>Form_Food_Purchase_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientGroup\Form_Add_Ingredient_Group.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientGroup\Form_Add_Ingredient_Group.Designer.cs">
+      <DependentUpon>Form_Add_Ingredient_Group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientGroup\Form_Edit_Ingredient_Group.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientGroup\Form_Edit_Ingredient_Group.Designer.cs">
+      <DependentUpon>Form_Edit_Ingredient_Group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientGroup\Form_Ingredient_Group.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientGroup\Form_Ingredient_Group.Designer.cs">
+      <DependentUpon>Form_Ingredient_Group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientItem\Form_Add_Ingredient_Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientItem\Form_Add_Ingredient_Item.Designer.cs">
+      <DependentUpon>Form_Add_Ingredient_Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientItem\Form_Edit_Ingredient_Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientItem\Form_Edit_Ingredient_Item.Designer.cs">
+      <DependentUpon>Form_Edit_Ingredient_Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientItem\Form_Ingredient_Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientItem\Form_Ingredient_Item.Designer.cs">
+      <DependentUpon>Form_Ingredient_Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientPurchase\Form_Add_Ingredient_Purchases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientPurchase\Form_Add_Ingredient_Purchases.Designer.cs">
+      <DependentUpon>Form_Add_Ingredient_Purchases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientPurchase\Form_Edit_Ingredient_Purchases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientPurchase\Form_Edit_Ingredient_Purchases.Designer.cs">
+      <DependentUpon>Form_Edit_Ingredient_Purchases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientPurchase\Form_Ingredient_Purchases_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\IngredientPurchase\Form_Ingredient_Purchases_List.Designer.cs">
+      <DependentUpon>Form_Ingredient_Purchases_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\SupplierHistory\Form_Supplier_History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\SupplierHistory\Form_Supplier_History.Designer.cs">
+      <DependentUpon>Form_Supplier_History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\Supplier\Form_Add_Supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\Supplier\Form_Add_Supplier.Designer.cs">
+      <DependentUpon>Form_Add_Supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\Supplier\Form_Edit_Supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\Supplier\Form_Edit_Supplier.Designer.cs">
+      <DependentUpon>Form_Edit_Supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Stock\Supplier\Form_Supplier_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Stock\Supplier\Form_Supplier_List.Designer.cs">
+      <DependentUpon>Form_Supplier_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\DeliveryUser\Form_Delivery_Users_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\DeliveryUser\Form_Delivery_Users_List.Designer.cs">
+      <DependentUpon>Form_Delivery_Users_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\DeliveryUser\Form_Delivery_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\DeliveryUser\Form_Delivery_User.Designer.cs">
+      <DependentUpon>Form_Delivery_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\PermissionGroup\Form_Add_Permission_Group.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\PermissionGroup\Form_Add_Permission_Group.Designer.cs">
+      <DependentUpon>Form_Add_Permission_Group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\PermissionGroup\Form_Edit_Permission_Group.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\PermissionGroup\Form_Edit_Permission_Group.Designer.cs">
+      <DependentUpon>Form_Edit_Permission_Group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\PermissionGroup\Form_Permissions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\PermissionGroup\Form_Permissions.Designer.cs">
+      <DependentUpon>Form_Permissions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\PermissionGroup\Form_Permissions_Group.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\PermissionGroup\Form_Permissions_Group.Designer.cs">
+      <DependentUpon>Form_Permissions_Group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\Permission\Form_Edit_Permission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\Permission\Form_Edit_Permission.Designer.cs">
+      <DependentUpon>Form_Edit_Permission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\Permission\Form_Add_Permission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\Permission\Form_Add_Permission.Designer.cs">
+      <DependentUpon>Form_Add_Permission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\Permission\Form_Permissions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\Permission\Form_Permissions.Designer.cs">
+      <DependentUpon>Form_Permissions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\User\Form_User_Permission_Group.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\User\Form_User_Permission_Group.Designer.cs">
+      <DependentUpon>Form_User_Permission_Group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\User\Form_User_Permissions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\User\Form_User_Permissions.Designer.cs">
+      <DependentUpon>Form_User_Permissions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\User\Form_Users_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\User\Form_Users_List.Designer.cs">
+      <DependentUpon>Form_Users_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\User\Form_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\User\Form_User.Designer.cs">
+      <DependentUpon>Form_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\Waiter\Form_Waiter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\Waiter\Form_Waiter.Designer.cs">
+      <DependentUpon>Form_Waiter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\User\Waiter\Form_Waiters_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\User\Waiter\Form_Waiters_List.Designer.cs">
+      <DependentUpon>Form_Waiters_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\WorkPeriods\Form_Work_Periods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\WorkPeriods\Form_Work_Periods.Designer.cs">
+      <DependentUpon>Form_Work_Periods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_Home.ar.resx">
+      <DependentUpon>Form_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Home.fr-FR.resx">
+      <DependentUpon>Form_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Home.resx">
+      <DependentUpon>Form_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Auth\Form_Login.ar.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Auth\Form_Login.fr-FR.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Auth\Form_Login.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Credit\Form_Add_Credit.ar.resx">
+      <DependentUpon>Form_Add_Credit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Credit\Form_Add_Credit.ca.resx">
+      <DependentUpon>Form_Add_Credit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Credit\Form_Add_Credit.fr-FR.resx">
+      <DependentUpon>Form_Add_Credit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Credit\Form_Add_Credit.resx">
+      <DependentUpon>Form_Add_Credit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Credit\Form_Add_Versement.ar.resx">
+      <DependentUpon>Form_Add_Versement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Credit\Form_Add_Versement.fr-FR.resx">
+      <DependentUpon>Form_Add_Versement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Credit\Form_Add_Versement.fr-GF.resx">
+      <DependentUpon>Form_Add_Versement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Credit\Form_Add_Versement.resx">
+      <DependentUpon>Form_Add_Versement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Credit\Form_Credit.ar.resx">
+      <DependentUpon>Form_Credit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Credit\Form_Credit.fr-FR.resx">
+      <DependentUpon>Form_Credit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Credit\Form_Credit.fr-GF.resx">
+      <DependentUpon>Form_Credit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Credit\Form_Credit.resx">
+      <DependentUpon>Form_Credit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Customer\Form_Customers.ar.resx">
+      <DependentUpon>Form_Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Customer\Form_Customers.fr-FR.resx">
+      <DependentUpon>Form_Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Customer\Form_Customers.resx">
+      <DependentUpon>Form_Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Customer\Form_customer_points.resx">
+      <DependentUpon>Form_customer_points.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Customer\Form_Custommer.ar.resx">
+      <DependentUpon>Form_Custommer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Customer\Form_Custommer.fr-FR.resx">
+      <DependentUpon>Form_Custommer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Customer\Form_Custommer.resx">
+      <DependentUpon>Form_Custommer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Dashboard\Form_Dashboard.ar.resx">
+      <DependentUpon>Form_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Dashboard\Form_Dashboard.fr-FR.resx">
+      <DependentUpon>Form_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Dashboard\Form_Dashboard.resx">
+      <DependentUpon>Form_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\DeliveredOrders\Form_Delivered_Orders.ar.resx">
+      <DependentUpon>Form_Delivered_Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\DeliveredOrders\Form_Delivered_Orders.fr-FR.resx">
+      <DependentUpon>Form_Delivered_Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\DeliveredOrders\Form_Delivered_Orders.resx">
+      <DependentUpon>Form_Delivered_Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\DocumentsViewer\Form_DocViewer.resx">
+      <DependentUpon>Form_DocViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\FoodGroup\Form_Add_Food_Group.ar.resx">
+      <DependentUpon>Form_Add_Food_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\FoodGroup\Form_Add_Food_Group.fr-FR.resx">
+      <DependentUpon>Form_Add_Food_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\FoodGroup\Form_Add_Food_Group.resx">
+      <DependentUpon>Form_Add_Food_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\FoodGroup\Form_Edit_Food_Group.ar.resx">
+      <DependentUpon>Form_Edit_Food_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\FoodGroup\Form_Edit_Food_Group.fr-FR.resx">
+      <DependentUpon>Form_Edit_Food_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\FoodGroup\Form_Edit_Food_Group.resx">
+      <DependentUpon>Form_Edit_Food_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\FoodGroup\Form_Food_Group.ar.resx">
+      <DependentUpon>Form_Food_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\FoodGroup\Form_Food_Group.fr-FR.resx">
+      <DependentUpon>Form_Food_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\FoodGroup\Form_Food_Group.resx">
+      <DependentUpon>Form_Food_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Form_Add_New_Item.ar.resx">
+      <DependentUpon>Form_Add_New_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Form_Add_New_Item.fr-FR.resx">
+      <DependentUpon>Form_Add_New_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Form_Add_New_Item.resx">
+      <DependentUpon>Form_Add_New_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Form_Edit_Item.ar.resx">
+      <DependentUpon>Form_Edit_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Form_Edit_Item.fr-FR.resx">
+      <DependentUpon>Form_Edit_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Form_Edit_Item.resx">
+      <DependentUpon>Form_Edit_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Form_Food_Items_List.ar.resx">
+      <DependentUpon>Form_Food_Items_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Form_Food_Items_List.fr-FR.resx">
+      <DependentUpon>Form_Food_Items_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Form_Food_Items_List.resx">
+      <DependentUpon>Form_Food_Items_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Property\Form_Add_Property.ar.resx">
+      <DependentUpon>Form_Add_Property.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Property\Form_Add_Property.fr-FR.resx">
+      <DependentUpon>Form_Add_Property.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Property\Form_Add_Property.resx">
+      <DependentUpon>Form_Add_Property.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Property\Form_Edit_Property.ar.resx">
+      <DependentUpon>Form_Edit_Property.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Property\Form_Edit_Property.fr-FR.resx">
+      <DependentUpon>Form_Edit_Property.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Property\Form_Edit_Property.resx">
+      <DependentUpon>Form_Edit_Property.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Property\Form_Properties.ar.resx">
+      <DependentUpon>Form_Properties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Property\Form_Properties.fr-FR.resx">
+      <DependentUpon>Form_Properties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Property\Form_Properties.resx">
+      <DependentUpon>Form_Properties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Property\PropertyItems\Form_Property_Items_List.ar.resx">
+      <DependentUpon>Form_Property_Items_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Property\PropertyItems\Form_Property_Items_List.fr-FR.resx">
+      <DependentUpon>Form_Property_Items_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Property\PropertyItems\Form_Property_Items_List.resx">
+      <DependentUpon>Form_Property_Items_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Unit\Form_Add_Unit.am-ET.resx">
+      <DependentUpon>Form_Add_Unit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Unit\Form_Add_Unit.ar.resx">
+      <DependentUpon>Form_Add_Unit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Unit\Form_Add_Unit.fr-FR.resx">
+      <DependentUpon>Form_Add_Unit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Unit\Form_Add_Unit.resx">
+      <DependentUpon>Form_Add_Unit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Unit\Form_Edit_Unit.ar.resx">
+      <DependentUpon>Form_Edit_Unit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Unit\Form_Edit_Unit.fr-FR.resx">
+      <DependentUpon>Form_Edit_Unit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Unit\Form_Edit_Unit.resx">
+      <DependentUpon>Form_Edit_Unit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Unit\Form_Units.ar.resx">
+      <DependentUpon>Form_Units.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Unit\Form_Units.fr-FR.resx">
+      <DependentUpon>Form_Units.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Unit\Form_Units.resx">
+      <DependentUpon>Form_Units.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Variation\Form_Add_Variation.ar.resx">
+      <DependentUpon>Form_Add_Variation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Variation\Form_Add_Variation.fr-FR.resx">
+      <DependentUpon>Form_Add_Variation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Variation\Form_Add_Variation.resx">
+      <DependentUpon>Form_Add_Variation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Variation\Form_Edit_Variation.ar.resx">
+      <DependentUpon>Form_Edit_Variation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Variation\Form_Edit_Variation.ca-AD.resx">
+      <DependentUpon>Form_Edit_Variation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Variation\Form_Edit_Variation.ca-ES.resx">
+      <DependentUpon>Form_Edit_Variation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Variation\Form_Edit_Variation.ca.resx">
+      <DependentUpon>Form_Edit_Variation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Variation\Form_Edit_Variation.fr-FR.resx">
+      <DependentUpon>Form_Edit_Variation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Variation\Form_Edit_Variation.resx">
+      <DependentUpon>Form_Edit_Variation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Variation\Form_Variations.ar.resx">
+      <DependentUpon>Form_Variations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Variation\Form_Variations.fr-FR.resx">
+      <DependentUpon>Form_Variations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Food\Variation\Form_Variations.resx">
+      <DependentUpon>Form_Variations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Kitchen\Form_kitchen_List.ar.resx">
+      <DependentUpon>Form_kitchen_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Kitchen\Form_kitchen_List.fr-FR.resx">
+      <DependentUpon>Form_kitchen_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Kitchen\Form_kitchen_List.resx">
+      <DependentUpon>Form_kitchen_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Kitchen\Form_Order_Status.ar.resx">
+      <DependentUpon>Form_Order_Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Kitchen\Form_Order_Status.fr-FR.resx">
+      <DependentUpon>Form_Order_Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Kitchen\Form_Order_Status.resx">
+      <DependentUpon>Form_Order_Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Order\Form_Order_Histories.ar.resx">
+      <DependentUpon>Form_Order_Histories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Order\Form_Order_Histories.fr-FR.resx">
+      <DependentUpon>Form_Order_Histories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Order\Form_Order_Histories.resx">
+      <DependentUpon>Form_Order_Histories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Order\OrderGroups\Form_Order_Details.ar.resx">
+      <DependentUpon>Form_Order_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Order\OrderGroups\Form_Order_Details.fr-FR.resx">
+      <DependentUpon>Form_Order_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Order\OrderGroups\Form_Order_Groups.ar.resx">
+      <DependentUpon>Form_Order_Groups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Order\OrderGroups\Form_Order_Groups.fr-FR.resx">
+      <DependentUpon>Form_Order_Groups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Order\OrderGroups\Form_Order_Groups.resx">
+      <DependentUpon>Form_Order_Groups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Order\OrderGroups\Form_Order_Details.resx">
+      <DependentUpon>Form_Order_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Order\OrderGroups\Form_Settle_Order.ar.resx">
+      <DependentUpon>Form_Settle_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Order\OrderGroups\Form_Settle_Order.fr-FR.resx">
+      <DependentUpon>Form_Settle_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Order\OrderGroups\Form_Settle_Order.resx">
+      <DependentUpon>Form_Settle_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Pos\Form_Pos.ar.resx">
+      <DependentUpon>Form_Pos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Pos\Form_Pos.fr-FR.resx">
+      <DependentUpon>Form_Pos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Pos\Form_Pos.resx">
+      <DependentUpon>Form_Pos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Rapport\Form_Food_Purchase_List.ar.resx">
+      <DependentUpon>Form_Food_Purchase_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Rapport\Form_Food_Purchase_List.fr-FR.resx">
+      <DependentUpon>Form_Food_Purchase_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Rapport\Form_Food_Purchase_List.resx">
+      <DependentUpon>Form_Food_Purchase_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Rapport\Form_Order_Histories.ar.resx">
+      <DependentUpon>Form_Order_Histories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Rapport\Form_Order_Histories.fr-FR.resx">
+      <DependentUpon>Form_Order_Histories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Rapport\Form_Order_Histories.resx">
+      <DependentUpon>Form_Order_Histories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Report\InvoiceIngredient.resx">
+      <DependentUpon>InvoiceIngredient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Report\InvoiceFood.resx">
+      <DependentUpon>InvoiceFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Report\Reciept80mm.resx">
+      <DependentUpon>Reciept80mm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Branch\Form_Add_Branch.ar.resx">
+      <DependentUpon>Form_Add_Branch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Branch\Form_Add_Branch.fr-FR.resx">
+      <DependentUpon>Form_Add_Branch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Branch\Form_Add_Branch.resx">
+      <DependentUpon>Form_Add_Branch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Branch\Form_Branch_List.ar.resx">
+      <DependentUpon>Form_Branch_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Branch\Form_Branch_List.fr-FR.resx">
+      <DependentUpon>Form_Branch_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Branch\Form_Branch_List.resx">
+      <DependentUpon>Form_Branch_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Branch\Form_Edit_Branch.ar.resx">
+      <DependentUpon>Form_Edit_Branch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Branch\Form_Edit_Branch.fr-FR.resx">
+      <DependentUpon>Form_Edit_Branch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Branch\Form_Edit_Branch.resx">
+      <DependentUpon>Form_Edit_Branch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\DepartmentTagList\Form_Add_Department_Tag.ar.resx">
+      <DependentUpon>Form_Add_Department_Tag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\DepartmentTagList\Form_Add_Department_Tag.fr-FR.resx">
+      <DependentUpon>Form_Add_Department_Tag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\DepartmentTagList\Form_Add_Department_Tag.resx">
+      <DependentUpon>Form_Add_Department_Tag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\DepartmentTagList\Form_Department_Tag_List.ar.resx">
+      <DependentUpon>Form_Department_Tag_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\DepartmentTagList\Form_Department_Tag_List.fr-FR.resx">
+      <DependentUpon>Form_Department_Tag_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\DepartmentTagList\Form_Department_Tag_List.resx">
+      <DependentUpon>Form_Department_Tag_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\DepartmentTagList\Form_Edit_Department_Tag.ar.resx">
+      <DependentUpon>Form_Edit_Department_Tag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\DepartmentTagList\Form_Edit_Department_Tag.fr-FR.resx">
+      <DependentUpon>Form_Edit_Department_Tag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\DepartmentTagList\Form_Edit_Department_Tag.resx">
+      <DependentUpon>Form_Edit_Department_Tag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\PaymentType\Form_Add_Payment_Type.ar.resx">
+      <DependentUpon>Form_Add_Payment_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\PaymentType\Form_Add_Payment_Type.fr-FR.resx">
+      <DependentUpon>Form_Add_Payment_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\PaymentType\Form_Add_Payment_Type.resx">
+      <DependentUpon>Form_Add_Payment_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\PaymentType\Form_Edit_Payment_Type.ar.resx">
+      <DependentUpon>Form_Edit_Payment_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\PaymentType\Form_Edit_Payment_Type.fr-FR.resx">
+      <DependentUpon>Form_Edit_Payment_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\PaymentType\Form_Edit_Payment_Type.resx">
+      <DependentUpon>Form_Edit_Payment_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\PaymentType\Form_Payment_Type.ar.resx">
+      <DependentUpon>Form_Payment_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\PaymentType\Form_Payment_Type.fr-FR.resx">
+      <DependentUpon>Form_Payment_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\PaymentType\Form_Payment_Type.resx">
+      <DependentUpon>Form_Payment_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Table\Form_Add_Table.ar.resx">
+      <DependentUpon>Form_Add_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Table\Form_Add_Table.fr-FR.resx">
+      <DependentUpon>Form_Add_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Table\Form_Add_Table.resx">
+      <DependentUpon>Form_Add_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Table\Form_Edit_Table.ar.resx">
+      <DependentUpon>Form_Edit_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Table\Form_Edit_Table.fr-FR.resx">
+      <DependentUpon>Form_Edit_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Table\Form_Edit_Table.resx">
+      <DependentUpon>Form_Edit_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Table\Form_Table_List.ar-DZ.resx">
+      <DependentUpon>Form_Table_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Table\Form_Table_List.ar.resx">
+      <DependentUpon>Form_Table_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Table\Form_Table_List.fr-FR.resx">
+      <DependentUpon>Form_Table_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Table\Form_Table_List.resx">
+      <DependentUpon>Form_Table_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Zone\Form_Add_Zone.ar.resx">
+      <DependentUpon>Form_Add_Zone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Zone\Form_Add_Zone.fr-FR.resx">
+      <DependentUpon>Form_Add_Zone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Zone\Form_Add_Zone.resx">
+      <DependentUpon>Form_Add_Zone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Zone\Form_Edit_Zone.ar.resx">
+      <DependentUpon>Form_Edit_Zone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Zone\Form_Edit_Zone.fr-FR.resx">
+      <DependentUpon>Form_Edit_Zone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Zone\Form_Edit_Zone.resx">
+      <DependentUpon>Form_Edit_Zone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Zone\Form_Zones.ar.resx">
+      <DependentUpon>Form_Zones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Zone\Form_Zones.fr-FR.resx">
+      <DependentUpon>Form_Zones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restaurant\Zone\Form_Zones.resx">
+      <DependentUpon>Form_Zones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Currency\Form_Add_Currency.ar.resx">
+      <DependentUpon>Form_Add_Currency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Currency\Form_Add_Currency.fr-FR.resx">
+      <DependentUpon>Form_Add_Currency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Currency\Form_Add_Currency.resx">
+      <DependentUpon>Form_Add_Currency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Currency\Form_Currency_List.ar.resx">
+      <DependentUpon>Form_Currency_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Currency\Form_Currency_List.fr-FR.resx">
+      <DependentUpon>Form_Currency_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Currency\Form_Currency_List.resx">
+      <DependentUpon>Form_Currency_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Currency\Form_Edit_Currency.ar.resx">
+      <DependentUpon>Form_Edit_Currency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Currency\Form_Edit_Currency.fr-FR.resx">
+      <DependentUpon>Form_Edit_Currency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Currency\Form_Edit_Currency.resx">
+      <DependentUpon>Form_Edit_Currency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Form_Settings.ar.resx">
+      <DependentUpon>Form_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Form_Settings.fr-FR.resx">
+      <DependentUpon>Form_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Form_Settings.resx">
+      <DependentUpon>Form_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Language\Form_Add_Language.ar.resx">
+      <DependentUpon>Form_Add_Language.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Language\Form_Add_Language.fr-FR.resx">
+      <DependentUpon>Form_Add_Language.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Language\Form_Add_Language.resx">
+      <DependentUpon>Form_Add_Language.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Language\Form_Edit_Language.ar.resx">
+      <DependentUpon>Form_Edit_Language.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Language\Form_Edit_Language.fr-FR.resx">
+      <DependentUpon>Form_Edit_Language.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Language\Form_Edit_Language.resx">
+      <DependentUpon>Form_Edit_Language.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Language\Form_Language_List.ar.resx">
+      <DependentUpon>Form_Language_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Language\Form_Language_List.fr-FR.resx">
+      <DependentUpon>Form_Language_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Settings\Language\Form_Language_List.resx">
+      <DependentUpon>Form_Language_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\FoodPurchase\Form_Add_Food_Purchase.ar.resx">
+      <DependentUpon>Form_Add_Food_Purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\FoodPurchase\Form_Add_Food_Purchase.fr-FR.resx">
+      <DependentUpon>Form_Add_Food_Purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\FoodPurchase\Form_Add_Food_Purchase.resx">
+      <DependentUpon>Form_Add_Food_Purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\FoodPurchase\Form_Edit_Food_Purchase.ar.resx">
+      <DependentUpon>Form_Edit_Food_Purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\FoodPurchase\Form_Edit_Food_Purchase.fr-FR.resx">
+      <DependentUpon>Form_Edit_Food_Purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\FoodPurchase\Form_Edit_Food_Purchase.resx">
+      <DependentUpon>Form_Edit_Food_Purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\FoodPurchase\Form_Food_Purchase_List.ar.resx">
+      <DependentUpon>Form_Food_Purchase_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\FoodPurchase\Form_Food_Purchase_List.fr-FR.resx">
+      <DependentUpon>Form_Food_Purchase_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\FoodPurchase\Form_Food_Purchase_List.resx">
+      <DependentUpon>Form_Food_Purchase_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientGroup\Form_Add_Ingredient_Group.ar.resx">
+      <DependentUpon>Form_Add_Ingredient_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientGroup\Form_Add_Ingredient_Group.fr-FR.resx">
+      <DependentUpon>Form_Add_Ingredient_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientGroup\Form_Add_Ingredient_Group.resx">
+      <DependentUpon>Form_Add_Ingredient_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientGroup\Form_Edit_Ingredient_Group.ar.resx">
+      <DependentUpon>Form_Edit_Ingredient_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientGroup\Form_Edit_Ingredient_Group.fr-FR.resx">
+      <DependentUpon>Form_Edit_Ingredient_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientGroup\Form_Edit_Ingredient_Group.resx">
+      <DependentUpon>Form_Edit_Ingredient_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientGroup\Form_Ingredient_Group.ar.resx">
+      <DependentUpon>Form_Ingredient_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientGroup\Form_Ingredient_Group.fr-FR.resx">
+      <DependentUpon>Form_Ingredient_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientGroup\Form_Ingredient_Group.resx">
+      <DependentUpon>Form_Ingredient_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientItem\Form_Add_Ingredient_Item.ar.resx">
+      <DependentUpon>Form_Add_Ingredient_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientItem\Form_Add_Ingredient_Item.fr-FR.resx">
+      <DependentUpon>Form_Add_Ingredient_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientItem\Form_Add_Ingredient_Item.resx">
+      <DependentUpon>Form_Add_Ingredient_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientItem\Form_Edit_Ingredient_Item.ar.resx">
+      <DependentUpon>Form_Edit_Ingredient_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientItem\Form_Edit_Ingredient_Item.fr-FR.resx">
+      <DependentUpon>Form_Edit_Ingredient_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientItem\Form_Edit_Ingredient_Item.resx">
+      <DependentUpon>Form_Edit_Ingredient_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientItem\Form_Ingredient_Item.ar.resx">
+      <DependentUpon>Form_Ingredient_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientItem\Form_Ingredient_Item.fr-FR.resx">
+      <DependentUpon>Form_Ingredient_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientItem\Form_Ingredient_Item.resx">
+      <DependentUpon>Form_Ingredient_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientPurchase\Form_Add_Ingredient_Purchases.ar.resx">
+      <DependentUpon>Form_Add_Ingredient_Purchases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientPurchase\Form_Add_Ingredient_Purchases.fr-FR.resx">
+      <DependentUpon>Form_Add_Ingredient_Purchases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientPurchase\Form_Add_Ingredient_Purchases.resx">
+      <DependentUpon>Form_Add_Ingredient_Purchases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientPurchase\Form_Edit_Ingredient_Purchases.ar.resx">
+      <DependentUpon>Form_Edit_Ingredient_Purchases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientPurchase\Form_Edit_Ingredient_Purchases.fr-FR.resx">
+      <DependentUpon>Form_Edit_Ingredient_Purchases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientPurchase\Form_Edit_Ingredient_Purchases.resx">
+      <DependentUpon>Form_Edit_Ingredient_Purchases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientPurchase\Form_Ingredient_Purchases_List.ar.resx">
+      <DependentUpon>Form_Ingredient_Purchases_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientPurchase\Form_Ingredient_Purchases_List.fr-FR.resx">
+      <DependentUpon>Form_Ingredient_Purchases_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\IngredientPurchase\Form_Ingredient_Purchases_List.resx">
+      <DependentUpon>Form_Ingredient_Purchases_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\SupplierHistory\Form_Supplier_History.ar.resx">
+      <DependentUpon>Form_Supplier_History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\SupplierHistory\Form_Supplier_History.fr-FR.resx">
+      <DependentUpon>Form_Supplier_History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\SupplierHistory\Form_Supplier_History.resx">
+      <DependentUpon>Form_Supplier_History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\Supplier\Form_Add_Supplier.ar.resx">
+      <DependentUpon>Form_Add_Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\Supplier\Form_Add_Supplier.fr-FR.resx">
+      <DependentUpon>Form_Add_Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\Supplier\Form_Add_Supplier.resx">
+      <DependentUpon>Form_Add_Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\Supplier\Form_Edit_Supplier.ar.resx">
+      <DependentUpon>Form_Edit_Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\Supplier\Form_Edit_Supplier.fr-FR.resx">
+      <DependentUpon>Form_Edit_Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\Supplier\Form_Edit_Supplier.resx">
+      <DependentUpon>Form_Edit_Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\Supplier\Form_Supplier_List.ar.resx">
+      <DependentUpon>Form_Supplier_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\Supplier\Form_Supplier_List.fr-FR.resx">
+      <DependentUpon>Form_Supplier_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Stock\Supplier\Form_Supplier_List.resx">
+      <DependentUpon>Form_Supplier_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\DeliveryUser\Form_Delivery_User.ar.resx">
+      <DependentUpon>Form_Delivery_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\DeliveryUser\Form_Delivery_User.fr-FR.resx">
+      <DependentUpon>Form_Delivery_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\DeliveryUser\Form_Delivery_Users_List.ar.resx">
+      <DependentUpon>Form_Delivery_Users_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\DeliveryUser\Form_Delivery_Users_List.fr-FR.resx">
+      <DependentUpon>Form_Delivery_Users_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\DeliveryUser\Form_Delivery_Users_List.resx">
+      <DependentUpon>Form_Delivery_Users_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\DeliveryUser\Form_Delivery_User.resx">
+      <DependentUpon>Form_Delivery_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\PermissionGroup\Form_Add_Permission_Group.ar.resx">
+      <DependentUpon>Form_Add_Permission_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\PermissionGroup\Form_Add_Permission_Group.fr-FR.resx">
+      <DependentUpon>Form_Add_Permission_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\PermissionGroup\Form_Add_Permission_Group.resx">
+      <DependentUpon>Form_Add_Permission_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\PermissionGroup\Form_Edit_Permission_Group.ar.resx">
+      <DependentUpon>Form_Edit_Permission_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\PermissionGroup\Form_Edit_Permission_Group.fr-FR.resx">
+      <DependentUpon>Form_Edit_Permission_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\PermissionGroup\Form_Edit_Permission_Group.resx">
+      <DependentUpon>Form_Edit_Permission_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\PermissionGroup\Form_Permissions.ar.resx">
+      <DependentUpon>Form_Permissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\PermissionGroup\Form_Permissions.fr-FR.resx">
+      <DependentUpon>Form_Permissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\PermissionGroup\Form_Permissions.resx">
+      <DependentUpon>Form_Permissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\PermissionGroup\Form_Permissions_Group.ar.resx">
+      <DependentUpon>Form_Permissions_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\PermissionGroup\Form_Permissions_Group.en-NZ.resx">
+      <DependentUpon>Form_Permissions_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\PermissionGroup\Form_Permissions_Group.fr-FR.resx">
+      <DependentUpon>Form_Permissions_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\PermissionGroup\Form_Permissions_Group.resx">
+      <DependentUpon>Form_Permissions_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Permission\Form_Add_Permission.ar.resx">
+      <DependentUpon>Form_Add_Permission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Permission\Form_Add_Permission.fr-FR.resx">
+      <DependentUpon>Form_Add_Permission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Permission\Form_Edit_Permission.ar.resx">
+      <DependentUpon>Form_Edit_Permission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Permission\Form_Edit_Permission.fr-FR.resx">
+      <DependentUpon>Form_Edit_Permission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Permission\Form_Edit_Permission.resx">
+      <DependentUpon>Form_Edit_Permission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Permission\Form_Add_Permission.resx">
+      <DependentUpon>Form_Add_Permission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Permission\Form_Permissions.ar.resx">
+      <DependentUpon>Form_Permissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Permission\Form_Permissions.fr-FR.resx">
+      <DependentUpon>Form_Permissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Permission\Form_Permissions.resx">
+      <DependentUpon>Form_Permissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\User\Form_User_Permission_Group.ar.resx">
+      <DependentUpon>Form_User_Permission_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\User\Form_User_Permission_Group.fr-FR.resx">
+      <DependentUpon>Form_User_Permission_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\User\Form_User_Permission_Group.resx">
+      <DependentUpon>Form_User_Permission_Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\User\Form_User_Permissions.ar.resx">
+      <DependentUpon>Form_User_Permissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\User\Form_User_Permissions.fr-FR.resx">
+      <DependentUpon>Form_User_Permissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\User\Form_User_Permissions.resx">
+      <DependentUpon>Form_User_Permissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\User\Form_User.ar.resx">
+      <DependentUpon>Form_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\User\Form_User.fr-FR.resx">
+      <DependentUpon>Form_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\User\Form_Users_List.ar.resx">
+      <DependentUpon>Form_Users_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\User\Form_Users_List.fr-FR.resx">
+      <DependentUpon>Form_Users_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\User\Form_Users_List.resx">
+      <DependentUpon>Form_Users_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\User\Form_User.resx">
+      <DependentUpon>Form_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Waiter\Form_Waiter.ar.resx">
+      <DependentUpon>Form_Waiter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Waiter\Form_Waiter.fr-FR.resx">
+      <DependentUpon>Form_Waiter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Waiter\Form_Waiter.resx">
+      <DependentUpon>Form_Waiter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Waiter\Form_Waiters_List.ar.resx">
+      <DependentUpon>Form_Waiters_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Waiter\Form_Waiters_List.fr-FR.resx">
+      <DependentUpon>Form_Waiters_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\User\Waiter\Form_Waiters_List.resx">
+      <DependentUpon>Form_Waiters_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\WorkPeriods\Form_Work_Periods.ar.resx">
+      <DependentUpon>Form_Work_Periods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\WorkPeriods\Form_Work_Periods.fr-FR.resx">
+      <DependentUpon>Form_Work_Periods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\WorkPeriods\Form_Work_Periods.resx">
+      <DependentUpon>Form_Work_Periods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_add_to_basket.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_add_user_group_woman_man.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_admin_settings_male.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_big_parcel_1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_cash.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_cash_counter.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_categorize.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_delivered_box_1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_delivery_scooter.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Dollar_Coin.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_front_desk.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_order_history.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_receipt.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_restaurant.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_search_client.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_summer_sales.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_supplier.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_tableware.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_total_sales.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_waiter.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_wish_list.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_yard_sale.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waiter.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waiter1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\work_authorisation.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\access_denied.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delivery_scooter.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\translation.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\euro_pound_exchange.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spiral_staircase.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablecloth.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallet.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tags.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categorize.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fast_moving_consumer_goods.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categorize1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unit.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group_of_vegetables.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group_of_fruits.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group_of_vegetables1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restart.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt_terminal.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard_layout.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pincode_keyboard.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg %2836%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OJK8ZS1 %28Large%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\currency_exchange.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_gift_box_re_vau4.svg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
