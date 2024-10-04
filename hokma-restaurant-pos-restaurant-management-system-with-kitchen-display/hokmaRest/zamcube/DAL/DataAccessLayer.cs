@@ -6,21 +6,30 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace ezziresto.DAL
 {
     class DataAccessLayer
     {
         SqlConnection sqlconnection;
-        
-        //this constructor initialise the connection object 
-        public DataAccessLayer()
-        {
-            sqlconnection = new SqlConnection(@"Data Source=DESKTOP-5GVD81R\SA;Initial Catalog=ezziresto;Integrated Security=True");
-        }
 
-        // methode to open connection
-        public void Open()
+		//this constructor initialise the connection object 
+		private string connectionString;
+
+		// Constructor reads connection string from app.config
+		public DataAccessLayer()
+		{
+			connectionString = ConfigurationManager.ConnectionStrings["desktop-d3k7toq\\sqlexpress.ezziresto.dbo"].ConnectionString;
+			sqlconnection = new SqlConnection(connectionString);
+		}
+		//public DataAccessLayer()
+		//{
+		//    sqlconnection = new SqlConnection(@"Data Source=DESKTOP-5GVD81R\SA;Initial Catalog=ezziresto;Integrated Security=True");
+		//}
+
+		// methode to open connection
+		public void Open()
         {
             if(sqlconnection.State != ConnectionState.Open)
             {
